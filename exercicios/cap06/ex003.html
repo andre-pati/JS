@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro programa em JS</title>
+    <style>
+        body{
+            background-color: #7272ff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-size: 2em;
+            color: #ffff00;
+        }
+        p{
+            font-size: 1em;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alô, mundo!</h1>
+    <p>Me livrei da maldição!!!</p>
+    <script>
+        /*Preciso converter o valor do window.prompt de string pata numero utilizando o comando Number.parseInt (para números inteiros) ou parseFloat (para números reais). Tambem posso usar apenas Number para o próprio Javascript escolher baseado nos dados que receber.*/
+        var n1 = Number(window.prompt('Digite um número:'))
+        var n2 = Number(window.prompt('Digite o segundo número:'))
+        var soma = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`)
+    </script>
+</body>
+</html>
